@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+*{
+    box-sizing: border-box;
+}
 .descr{
     font-family: 'Fira Sans', sans-serif;
     text-align: justify;
@@ -35,5 +38,21 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
-
+}.info{
+    padding: 12px;
+}
+.module, .mois{
+    font-size: 15px;
+}
+.item-blog-post{
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.tz-post-info{
+    padding: 10px;
+}
+.tz-post-thumbnail{
+    padding: 10px;
 }

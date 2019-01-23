@@ -29,7 +29,7 @@ p{
     color: rgb(236, 52, 52);
 }
 .menus_elem:hover{
-    background: linear-gradient(to right,#A860D1, #D9CC47);
+    background: linear-gradient(#A860D1, rgb(240, 148, 10));
 }
 
 .tzuser-info{

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+.descr{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: justify;
+    font-size: 1.5em;
+}
+.nan{
+    color: #A860D1;
+}
+.title{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn-nan{
+    background: linear-gradient(to right,#A860D1, #D9CC47);
+    height: 60px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2em;
+}
+.normal:hover{
+    text-decoration: line-through;
+    color: rgb(236, 52, 52);
+}
+.menus_elem:hover{
+    background: linear-gradient(to right,#A860D1, #D9CC47);
+}
+
+.tzuser-info{
+    border: 1px solid;
+    background-image: url('../images/universite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+
+}

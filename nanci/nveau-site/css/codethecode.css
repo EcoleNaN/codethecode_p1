@@ -1,0 +1,40 @@
+.modules{
+	margin-bottom: 15px;
+}
+.carac{
+	transition-property: all;
+	transition-delay: 0.2s;
+	transition-duration: 1.2s;
+	transition-timing-function: ease;
+}
+.carac:hover{
+	background-color: #AC72C6;
+}
+.pedago_img{
+	border: 1px solid;
+	background-image: url('../images/logo-nan.png');
+	height: 200px;
+	background-size: cover;
+}
+/*MENU ACCORDION PEDAGOGIE*/
+.myNav{
+	width: 200px;
+	background: #333;
+}
+.myNav-item:not(:first-child){
+	border-top: 1px solid #4d4d4d;
+}
+.myNav-link{
+	display: block;
+	padding: 8px 10px;
+}
+.myNav-content{
+	padding: 0 20px;
+	padding-bottom: 8px; 
+}
+.ui-accordion-content{
+	display: none;
+}
+.active > .ui-accordion-content {
+	display: block;
+}

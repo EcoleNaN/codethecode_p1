@@ -1393,8 +1393,10 @@ table.mc-table tbody .new .submissions a:before {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc99ff', endColorstr='#07d0ff', GradientType=1);
 }
 .overlay-color-3 {
-  background-color: #000;
-  opacity: 0.8;
+  background-image: url('../images/bg-nan.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2500,7 +2502,7 @@ blockquote cite:after {
   position: absolute;
   width: 12%;
   height: 3px;
-  background-color: #37abf2;
+  background-color: #000;
   bottom: -3px;
   left: 0;
 }
@@ -2685,11 +2687,11 @@ footer#footer.footer-style-2 {
   transition: all 0.3s linear 0s;
 }
 .first-footer .quick_link ul li a:hover {
-  color: #37abf2;
+  color: #FFF777;
 }
 .first-footer .news_letter {
   position: relative;
-  border-bottom: 4px solid #37ABF2;
+  border-bottom: 4px solid #AC72C6;
   z-index: 9;
 }
 .first-footer .news_letter .inner {
@@ -3446,16 +3448,16 @@ footer#footer.footer-style-2 {
   display: block;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-  color: #A6A6A6;
+  color: #000;
 }
 .sidebar-categories .widget ul li:after {
-  background-color: #A6A6A6;
+  background-color: #000;
 }
 .sidebar-categories .widget ul li:hover a {
-  color: #37abf2;
+  color: #000;
 }
 .sidebar-categories .widget ul li:hover:after {
-  background-color: #37abf2;
+  background-color: #AC72C6;
 }
 .sidebar-categories .widget ul .current:after {
   background-color: #2B2E3A;
@@ -5065,7 +5067,7 @@ footer#footer.footer-style-2 {
 /*-- PROFILE FEATURE --*/
 .profile-feature {
   position: relative;
-  padding: 45px 0;
+  padding: 65px;
   z-index: 9;
 }
 .info-author {
